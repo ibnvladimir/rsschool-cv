@@ -32,6 +32,7 @@ Then I realized that the front-end most successfully combines both of my hobbies
 
 ## Code samples
 ```javascript
+//javascript
 //should answer on question - is the 'line' are palindrome
 function isPalindrome(line) {
   let counter = line.length/2; //that's enough
