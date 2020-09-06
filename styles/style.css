@@ -71,7 +71,7 @@ code {
 }
 
 sup {
-  text-decoration: underline;
+  text-decoration: 1px underline;
 }
 
 footer {
