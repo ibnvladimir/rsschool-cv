@@ -71,8 +71,10 @@ code {
 }
 
 sup {
-  text-decoration: 1px underline;
+  border-bottom: 1px solid black;
 }
+
+
 
 footer {
   background-color: #ddd;
