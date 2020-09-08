@@ -50,25 +50,30 @@ code {
   color: green;
 }
 
-#education,
+/* #education,
 #english_skill {
   margin: 30px auto auto 115px;
-}
+} */
 
 .row {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.col {
-  height: 100%;
-  display: inline-block;
+.col_1 {
   vertical-align: middle;
+  flex-basis: 40%;
 }
 
+ .col_2 {
+  flex-basis: 56%;
+}
+/*
 .flex {
   width: 33%;
   text-align: center;
-}
+} */
 
 sup {
   border-bottom: 1px solid black;
