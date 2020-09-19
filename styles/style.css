@@ -1,0 +1,99 @@
+html {
+  font: 20px Ubuntu;
+}
+
+p {
+  line-height: 1.3;
+}
+
+
+img {
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.wrapper {
+  display: inline-block;
+}
+
+h1 {
+  font-size: 70px;
+  display: inline-block;
+  margin: 0 0 0 50px;
+}
+
+
+.global-wrapper {
+  margin: 0 auto;
+  background-color: #eee;
+  width: 1024px;
+  padding: 20px 30px;
+}
+
+.code-wrapper {
+  background-color: #ccc;
+  margin: 0 20px 0 20px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.75rem;
+}
+
+.keyword {
+  color: #05f;
+}
+
+.comment {
+  color: green;
+}
+
+/* #education,
+#english_skill {
+  margin: 30px auto auto 115px;
+} */
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+.col_1 {
+  vertical-align: middle;
+  flex-basis: 40%;
+}
+
+ .col_2 {
+  flex-basis: 56%;
+}
+
+.flex {
+  width: 33%;
+  text-align: center;
+} 
+
+sup {
+  border-bottom: 1px solid black;
+}
+
+
+
+footer {
+  background-color: #ddd;
+  margin: 20px -30px -20px -30px;
+  padding: 20px;
+}
+
+ul {
+  margin-top: -20px;
+}
+
+.mid {
+  margin-left: -35px;
+}

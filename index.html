@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" href="./images/favicon.ico">
+  <title>resume</title>
+</head>
+
+<body>
+  <div class="global-wrapper">
+    <header>
+      <img src="./images/HUqD6Wp2iag.jpg" alt="фото">
+
+      <div class="wrapper">
+        <h1>
+          Vvedenskiy Andrey
+        </h1>
+      </div>
+
+    </header>
+
+    <hr>
+
+    <main>
+      <section id="summary">
+        <h2>
+          Summary
+        </h2>
+        <p>I'm 32. Now I'm a 4<sup>th</sup> year student of the specialty system administrator. Ever since school, I was
+          interested
+          in programming and design, but at first I focused on design. For a while I also tried to learn programming on
+          server-side languages, but it was all wrong. In my third year at the university, I realized that the knowledge
+          that was there was not enough, and enrolled in Software developer courses at NetCracker, which I finished in
+          April 2020.</p>
+        <p>
+          Then I realized that the front-end most successfully combines both of my hobbies. This was facilitated by the
+          fact that in the courses I was entrusted to write the <a
+            href="https://quiz-front2020.herokuapp.com/home">front-ent
+            part</a> in Angular. It was quite difficult, since our mentors were
+          well
+          versed in Java, but Angular was not very familiar to them, and I had to learn a lot on my own. However, I
+          believe that I did well for the first time, and I want to continue my education in this direction.
+        </p>
+      </section>
+
+      <hr>
+
+      <div class="row">
+        <div class="col_1">
+          <section class="wrapper" id="skill_list">
+            <h2>
+              Skills
+            </h2>
+            <h3>
+              First of all:
+            </h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Angular (2+)</li>
+              <li>Git</li>
+            </ul>
+
+            <h3>
+              Also have some experience:
+            </h3>
+            <ul>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>C#</li>
+              <li>jQuery</li>
+              <li>Linux</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="col_2">
+          <div class="row">
+            <section id="education">
+              <h2>
+                Education
+              </h2>
+              <ul>
+                <li>I'm a 4<sup>th</sup> year student in hte "Volga region state university of service"</li>
+                <li>finished NetCracker's Software developer course in April 2020</li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="row">
+            <section id="english_skill">
+              <h2>
+                English
+              </h2>
+              <p>
+                I rate my English level as A2(pre-intermediate).
+              </p>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <section>
+        <h2>
+          Code example on javaScript
+        </h2>
+        <div class="code-wrapper">
+
+          <pre>
+      <code>
+    <span class="comment">//should answer on question - is the 'line' palindrome?</span>
+    <span class="keyword">function</span> isPalindrome(line) {
+      <span class="keyword">let</span> counter = line.length/2; <span class="comment">//that's enough</span>
+      <span class="keyword">for</span> (let i = 0; i &lt; counter; i++){
+        <span class="keyword">if</span> (line.charAt(i) != line.charAt(line.length - (i + 1))){
+          <span class="keyword">return</span> false;
+        }
+      }
+      <span class="keyword">return</span> true;
+    }
+    console.log(isPalindrome("hattah")); <span class="comment">//should print - true</span>
+    console.log(isPalindrome(12321)); <span class="comment">//should print - true</span>
+    console.log(isPalindrome("hello")); <span class="comment">//should print - false</span>
+      </code>
+    </pre>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <section class="row space-around">
+        <div class="flex">Email: <a href="mailto:ihbin22@gmail.com">ihbin22@gmail.com</a></div>
+        <div class="flex">
+          <div class="mid">
+            Skype: <a href="skype:iidesign_3">iidesign_3</a>
+          </div>
+        </div>
+        <div class="flex">GitHub: <a href="https://github.com/ibnvladimir">ibnvladimir</a></div>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>
